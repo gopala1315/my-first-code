@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Journey</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7ff;
+            color: #222;
+            text-align: center;
+        }
+
+        header {
+            background: #4f46e5;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+        }
+
+        h2 {
+            color: #4f46e5;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #eef2ff;
+            padding: 12px 18px;
+            border-radius: 20px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🚀 My Student Journey</h1>
+        <p>My first step into the world of coding</p>
+    </header>
+
+    <section>
+        <h2>👋 About Me</h2>
+        <p>
+            I am a student passionate about learning, technology,
+            creativity and building a better future.
+        </p>
+    </section>
+
+    <section>
+        <h2>🎯 My Goals</h2>
+        <p>
+            I want to keep learning new skills, explore technology,
+            understand AI and create useful digital projects.
+        </p>
+    </section>
+
+    <section>
+        <h2>💡 Things I Like</h2>
+
+        <div class="skills">
+            <div class="skill">📚 Learning</div>
+            <div class="skill">💻 Coding</div>
+            <div class="skill">🤖 AI</div>
+            <div class="skill">🎨 Design</div>
+            <div class="skill">🚀 Technology</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🌱 My First Code</h2>
+        <p>
+            Today I created my first webpage using HTML and CSS.
+            This is just the beginning!
+        </p>
+    </section>
+
+    <footer>
+        <p>#MyFirstCode | My coding journey starts here 🚀</p>
+    </footer>
+
+</body>
+</html>
